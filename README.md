@@ -15,12 +15,6 @@ npm install
 
 Create `backend/.env` from `backend/.env.example`:
 
-```env
-PORT=5000
-MONGODB_URI=mongodb://127.0.0.1:27017/todo_app
-CLIENT_ORIGIN=http://localhost:5173
-```
-
 Run backend:
 
 ```bash
