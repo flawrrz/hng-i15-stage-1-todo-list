@@ -1,0 +1,12 @@
+services:
+  - type: static
+    name: my-frontend-app
+    repo: https://github.com/flawrrz/hng-i15-stage-1-todo-list
+    branch: master
+    rootDir: frontend        # Change this to your frontend folder name (or leave blank if it's in the root)
+    buildCommand: npm install && npm run build
+    publishDir: dist         # Change this to 'build' if using Create React App
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
