@@ -13,7 +13,7 @@ cd backend
 npm install
 ```
 
-Create `backend/.env` from `backend/.env.example`:
+- Create `backend/.env` from `backend/.env.example`
 
 Run backend:
 
